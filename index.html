@@ -13,6 +13,16 @@
     h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
   })(document);
 </script>
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'cac5ykd',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
     <title>自己紹介サイト</title>
 </head>
 <body>
@@ -22,13 +32,13 @@
           <img src="top_girl.png" alt="" width="300">
             <div class="balloon1-left">
              <p>のんちゃんの自己紹介</p>
-         </div>
+             </div>
       </div>
   </div>
   
    <div class="wrapper">
       <div id="main">
-      <h1 class="top-title">MyProfile</h1>
+      <h1 class="top-title title-myprofile">MyProfile</h1>
        <div class="content" id="content1">
             <div class="right-box">
                 <p>Name：のんちゃん<br>
@@ -38,18 +48,18 @@
             </div>
             <img src="profile.jpg" alt="" width="300">
        </div>
-            <h1 class="top-title">Hobby</h1>
+           
+        <h1 class="top-title title-hobby">Hobby</h1>
             <div class="content" id="content2">
-            <img src="food.png" alt="" width="300">
-            <div class="right-box">
-            <h2>食べること</h2>
-            <p>
-                食べることが好き。<br>
-                最近は美味しいものを食べるためにアルバイトを頑張っている。<br>
-                カフェ巡り・ラーメン巡りをしたい。
-            </p>
+                <img src="food.png" alt="" width="300">
+                <div class="right-box">
+                    <h2>食べること</h2>
+                    <p>食べることが好き。<br>
+                        最近は美味しいものを食べるためにアルバイトを頑張っている。<br>
+                        カフェ巡り・ラーメン巡りをしたい。
+                    </p>
+                </div>
            </div>
-       </div>
 
         <div class="content" id="content3">
             <div class="left-box">
@@ -86,8 +96,7 @@
            <img src="takarazuka.png" alt="" width="300">
        </div>
        
-     </div>
-     
+     </div> 
     </div>
 </body>
 </html>
